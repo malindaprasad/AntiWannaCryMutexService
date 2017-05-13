@@ -13,12 +13,17 @@ namespace Anti_WannaCry_Mutex
         /// </summary>
         static void Main()
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new AntiWannaCryMutex()
-            };
-            ServiceBase.Run(ServicesToRun);
+#if DEBUG
+            new AntiWannaCryMutex().OnDebug();
+ #else
+                        ServiceBase[] ServicesToRun;
+                        ServicesToRun = new ServiceBase[]
+                        {
+                            new AntiWannaCryMutex()
+                        };
+                        ServiceBase.Run(ServicesToRun);
+#endif
+
         }
     }
 }
