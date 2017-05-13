@@ -11,12 +11,12 @@ Service can install via bat file or installUtil. Then once service started, Can 
 add to run at startup. It will run in background
 
   
-	```
-	Created by : Malinda Rathnayake
-    Consultened by : Dilan Walgampaya
-    Date : 2017-05-13
-    Version : v01.0
-	```
+```
+Created by : Malinda Rathnayake
+Fix Consult by : Dilan Walgampaya
+Date : 2017-05-13
+Version : v01.0
+```
 
 ### Process Explorer
    
@@ -24,3 +24,6 @@ add to run at startup. It will run in background
 
 Ref
 `https://gist.github.com/N3mes1s/afda0da98f6a0c63ec4a3d296d399636`
+
+
+Developer dont take any risk or affecct because of this tool. and developer not gaurantee about 100% safty
