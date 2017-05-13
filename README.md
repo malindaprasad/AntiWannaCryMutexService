@@ -1,10 +1,14 @@
 # AntiWannaCryMutexService
 
-Windows Service that can run for prevent WannaCry Ransomware. Simply can push via AD to PC's
+Windows Service/Desktop that can run for prevent WannaCry Ransomware. Simply can push via AD to PC's
 
 This will create mutex `MsWinZonesCacheCounterMutexA`. So WannaCry cant start
 
+### Service 
 Service can install via bat file or installUtil. Then once service started, Can run Microsoft Process Explorer and search for above mutex
+
+### Desktop app
+add to run at startup. It will run in background
 
   
 	```
@@ -17,7 +21,6 @@ Service can install via bat file or installUtil. Then once service started, Can 
 ### Process Explorer
    
 `https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx` and search for `MsWinZonesCacheCounterMutexA`
-```
 
-Rer 
+Ref
 `https://gist.github.com/N3mes1s/afda0da98f6a0c63ec4a3d296d399636`
