@@ -25,5 +25,7 @@ Version : v01.0
 Ref
 `https://gist.github.com/N3mes1s/afda0da98f6a0c63ec4a3d296d399636`
 
+* When run service, you cant see mutex from Desktop app. So better to have Desktop hidden app. 
+* I you have older windows, please recompile with lower .net version. 
 
 Developer dont take any risk or affecct because of this tool. and developer not gaurantee about 100% safty
